@@ -1,6 +1,18 @@
 <template>
   <div id="app">
-
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <ul class="menu-list">
+            <li><p class="menu-list">Dashboard</p></li>
+            <li><p class="menu-list">Customers</p></li>
+          </ul>
+        </div>
+        <div class="column is-four-fifths">
+          <router-view></router-view>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
