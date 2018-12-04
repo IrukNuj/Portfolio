@@ -22,7 +22,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .container {
+    border-right:solid 1px darkgrey;
+    height: 100vh;
+  }
   .menu-list {
-    padding-bottom: 5vh;
+    padding-top: 5vh;
   }
 </style>
