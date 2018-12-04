@@ -2,13 +2,10 @@
   <div id="app">
     <div class="container">
       <div class="columns">
-        <div class="column">
-          <ul class="menu-list">
-            <li><p class="menu-list">Dashboard</p></li>
-            <li><p class="menu-list">Customers</p></li>
-          </ul>
+        <div class="column aside">
+          <Menu></Menu>
         </div>
-        <div class="column is-four-fifths">
+        <div class="column is-four-fifths main">
           <router-view></router-view>
         </div>
       </div>
@@ -17,7 +14,9 @@
 </template>
 
 <script>
+import Menu from '@/components/Menu'
 export default {
+  components: { Menu },
   name: 'App'
 }
 </script>
@@ -30,6 +29,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
+
+
 </style>
