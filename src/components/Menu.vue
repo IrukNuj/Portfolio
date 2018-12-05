@@ -37,7 +37,7 @@ export default {
 
   .router-link-active {
     transition: 0.5s;
-    background: lightgray;
+    background: whitesmoke;
   }
 
 </style>

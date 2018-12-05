@@ -26,6 +26,7 @@ export default {
 <style scoped>
   .contents {
     padding-top: 5vh;
-    padding-left: 2vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
   }
 </style>

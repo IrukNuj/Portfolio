@@ -40,9 +40,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .container {
-    padding-top: 5vh;
-  }
   .card {
     transition-duration: 0.5s;
     opacity: 0.7;
