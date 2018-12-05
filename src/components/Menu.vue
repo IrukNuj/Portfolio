@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
+  <div class="menu-content">
     <ul class="menu-list">
       <li><p class="menu-list">Home</p></li>
       <li><p class="menu-list">About</p></li>
-      <li><p class="menu-list">Content</p></li>
       <li><p class="menu-list">Works</p></li>
+      <li><p class="menu-list">Contact</p></li>
     </ul>
   </div>
 </template>
@@ -22,12 +22,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .container {
+  .menu-content {
     border-right: solid 1px darkgrey;
-    height: 100vh;
+    width: 80%;
+    margin-top: 5vh;
   }
 
   .menu-list {
-    padding-top: 5vh;
+    margin-top: 5vh;
+    paddinng-right: 2vw;
+    text-align: center;
   }
+
 </style>

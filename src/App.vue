@@ -2,10 +2,10 @@
   <div id="app">
     <div class="container">
       <div class="columns">
-        <div class="column aside">
+        <div class="column is-2 aside-content">
           <Menu></Menu>
         </div>
-        <div class="column is-four-fifths main">
+        <div class="column is-10 main-content">
           <router-view></router-view>
         </div>
       </div>
@@ -29,7 +29,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  padding: 0;
+  margin: 0;
+  width: 95vw;
 }
-
 
 </style>

@@ -1,19 +1,18 @@
 <template>
-  <div class="container">
-    <div v-for="i in 9" key="{{ i }}">
-      <div v-if="i % 3 === 0" class="columns">
-        <WorkCard></WorkCard>
-        <WorkCard></WorkCard>
-        <WorkCard></WorkCard>
-      </div>
+  <div class="contents">
+    <div v-for="_ in 3" key="{{ i }}" class="columns">
+      <WorkCard></WorkCard>
+      <WorkCard></WorkCard>
+      <WorkCard></WorkCard>
     </div>
   </div>
 </template>
 
 <script>
 import WorkCard from '@/components/WorkCard'
+
 export default {
-  components: { WorkCard },
+  components: {WorkCard},
   name: 'Work',
   data () {
     return {
@@ -25,8 +24,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .container {
+  .contents {
     padding-top: 5vh;
-    padding-right: 3vw;
+    padding-left: 2vw;
   }
 </style>
