@@ -43,14 +43,22 @@ export default {
   .container {
     padding-top: 5vh;
   }
+  .card {
+    transition-duration: 0.5s;
+    opacity: 0.7;
+  }
+  .card:hover {
+    filter: drop-shadow(8px 8px 8px rgba(0,0,0,0.3));
+    opacity: 1;
+  }
   .v-enter-active, .v-leave-active {
-    transition: opacity 1s;
+    transition: opacity 0.8s;
   }
   .v-enter {
     opacity: 0;
   }
   .v-enter-to {
-    opacity: 1;
+    opacity: 0.7;
   }
   .v-leave {
     opacity: 1;

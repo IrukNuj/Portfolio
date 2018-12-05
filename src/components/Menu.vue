@@ -1,10 +1,10 @@
 <template>
   <div class="menu-content">
     <ul class="menu-list">
-      <li><p class="menu-list">Home</p></li>
-      <li><p class="menu-list">About</p></li>
-      <li><p class="menu-list">Works</p></li>
-      <li><p class="menu-list">Contact</p></li>
+      <router-link to="/Home"><p class="menu-list">Home</p></router-link>
+      <router-link to="/About"><p class="menu-list">About</p></router-link>
+      <router-link to="/"><p class="menu-list">Works</p></router-link>
+      <router-link to="/Contact"><p class="menu-list">Contact</p></router-link>
     </ul>
   </div>
 </template>
@@ -29,9 +29,15 @@ export default {
   }
 
   .menu-list {
-    margin-top: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vw;
     paddinng-right: 2vw;
     text-align: center;
+  }
+
+  .router-link-active {
+    transition: 0.5s;
+    background: lightgray;
   }
 
 </style>
