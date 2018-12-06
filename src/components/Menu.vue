@@ -24,14 +24,13 @@ export default {
 <style scoped>
   .menu-content {
     border-right: solid 1px darkgrey;
-    width: 80%;
+    width: 100%;
     margin-top: 5vh;
   }
 
   .menu-list {
     margin-top: 2vh;
     margin-bottom: 2vw;
-    paddinng-right: 2vw;
     text-align: center;
   }
 

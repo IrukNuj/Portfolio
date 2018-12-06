@@ -32,8 +32,14 @@ export default {
   padding: 0;
   margin: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-image: url("assets/1.png");
+}
+
+.main-content {
+  margin-top: 5vh;
+  padding-right: 3vw;
+  padding-left: 3vw;
 }
 
 </style>

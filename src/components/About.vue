@@ -24,8 +24,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .contents {
-    padding-top: 5vh;
-    padding-left: 2vw;
-  }
+
 </style>
