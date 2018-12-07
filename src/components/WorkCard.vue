@@ -50,19 +50,13 @@ export default {
   .card-image {
     border-radius: 5px 5px 0px 0px;
   }
-  .v-enter-active, .v-leave-active {
+  .v-enter-active{
     transition: opacity 0.5s;
   }
   .v-enter {
     opacity: 0;
   }
   .v-enter-to {
-    opacity: 0.8;
-  }
-  .v-leave {
     opacity: 1;
-  }
-  .v-leave-to {
-    opacity: 0;
   }
 </style>

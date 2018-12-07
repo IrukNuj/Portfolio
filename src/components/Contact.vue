@@ -34,7 +34,7 @@ export default {
 .limitation {
   animation-iteration-count: infinite;
 }
-.v-enter-active, .v-leave-active {
+.v-enter-active{
   transition: opacity 0.5s;
 }
 .v-enter {
@@ -42,12 +42,6 @@ export default {
 }
 .v-enter-to {
   opacity: 1;
-}
-.v-leave {
-  opacity: 1;
-}
-.v-leave-to {
-  opacity: 0;
 }
 
 </style>
