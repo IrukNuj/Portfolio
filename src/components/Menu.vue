@@ -1,11 +1,13 @@
 <template>
-  <div class="menu-content">
-    <ul class="menu-list">
-      <router-link to="/Home"><p class="menu-list">Home</p></router-link>
-      <router-link to="/About"><p class="menu-list">About</p></router-link>
-      <router-link to="/"><p class="menu-list">Works</p></router-link>
-      <router-link to="/Contact"><p class="menu-list">Contact</p></router-link>
-    </ul>
+  <div class="menu">
+    <div class="menu-content">
+      <ul class="menu-list">
+        <router-link to="/Home"><p class="menu-list">Home</p></router-link>
+        <router-link to="/About"><p class="menu-list">About</p></router-link>
+        <router-link to="/"><p class="menu-list">Works</p></router-link>
+        <router-link to="/Contact"><p class="menu-list">Contact</p></router-link>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -22,6 +24,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .menu {
+    height: 100vh;
+  }
+  @media screen and (max-width: 768px){
+    .menu {
+      height: auto;
+    }
+  }
   .menu-content {
     border-right: solid 1px darkgrey;
     width: 100%;

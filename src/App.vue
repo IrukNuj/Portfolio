@@ -31,7 +31,7 @@ export default {
   color: #2c3e50;
   padding: 0;
   margin: 0;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background-image: url("assets/1.png");
 }
