@@ -4,7 +4,7 @@
       <article class="media">
         <div class="media-left">
           <figure class="image is-64x64">
-            <img class="is-rounded" src="../assets/daru-girl.jpeg" alt="Image">
+            <img class="is-rounded" :src="image_src" alt="Image">
           </figure>
         </div>
         <div class="media-content">
@@ -30,7 +30,8 @@ export default {
   name: 'About',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      image_src: require('../assets/daru-girl.jpeg')
     }
   }
 }

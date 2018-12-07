@@ -57,6 +57,6 @@ export default {
     opacity: 0;
   }
   .v-enter-to {
-    opacity: 1;
+    opacity: 0.8;
   }
 </style>
