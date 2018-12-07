@@ -18,10 +18,8 @@
           <div class="content">
             Railsで簡単にOauth認証を実装し、ログインユーザーの過去の呟きを思い出せるアプリを作成。
             <br>
-            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
           </div>
         </div>
-        <button @click="show = !show">きりきり</button>
       </div>
     </transition>
   </div>
@@ -42,20 +40,20 @@ export default {
 <style scoped>
   .card {
     transition-duration: 0.5s;
-    opacity: 0.7;
+    opacity: 0.8;
   }
   .card:hover {
     filter: drop-shadow(8px 8px 8px rgba(0,0,0,0.3));
     opacity: 1;
   }
   .v-enter-active, .v-leave-active {
-    transition: opacity 0.8s;
+    transition: opacity 0.5s;
   }
   .v-enter {
     opacity: 0;
   }
   .v-enter-to {
-    opacity: 0.7;
+    opacity: 0.8;
   }
   .v-leave {
     opacity: 1;

@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "animate.css": "^3.7.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
