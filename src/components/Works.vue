@@ -9,17 +9,17 @@
 </template>
 
 <script>
-import WorkCard from '@/components/WorkCard'
+  import WorkCard from '@/components/WorkCard'
 
-export default {
-  components: {WorkCard},
-  name: 'Work',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
+  export default {
+    components: {WorkCard},
+    name: 'Work',
+    data () {
+      return {
+        msg: 'Welcome to Your Vue.js App'
+      }
     }
   }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
