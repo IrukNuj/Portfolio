@@ -1,6 +1,6 @@
 <template>
   <div class="contents">
-    <div v-for="_ in 3" key="{{ i }}" class="columns">
+    <div v-for="work in works" key="{{ work.id }}" class="columns">
       <WorkCard></WorkCard>
       <WorkCard></WorkCard>
       <WorkCard></WorkCard>
@@ -10,20 +10,24 @@
 
 <script>
 import WorkCard from '@/components/WorkCard'
+import axios from 'axios'
 
 export default {
   components: {WorkCard},
   name: 'Work',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      works: null,
     }
   },
   methods: {
 
   },
-  created: {
-    axios.get
+  created () {
+    this.works = require('../assets/works')
+    alert('hoge')
+    alert(this.works)
   }
 
 }
