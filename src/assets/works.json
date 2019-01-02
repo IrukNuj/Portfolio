@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "名前です",
-    "description": "説明です" ,
+    "name": "Mint",
+    "description": "初めて作ったWebアプリ。ユーザー登録と記事の投稿機能を備えた簡単なブロクSNSっぽいアプリ。" ,
     "url": "URL",
     "path": "画層のパスです"
   },

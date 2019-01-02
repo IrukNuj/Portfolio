@@ -1,10 +1,52 @@
 <template>
   <div class="contents">
-    <div v-for="work in works" key="{{ work.id }}" class="columns">
-      <WorkCard></WorkCard>
-      <WorkCard></WorkCard>
-      <WorkCard></WorkCard>
+
+    <div class="columns">
+      <div v-for="work in works" key="{{ work.id }}" >
+        <div v-if="work.id <= 3">
+            <WorkCard
+              :id = "work.id"
+              :name = "work.name"
+              :description = "work.description"
+              :url = "work.url"
+              :path = "work.path"
+            >
+            </WorkCard>
+          </div>
+        </div>
     </div>
+
+    <div class="columns">
+      <div v-for="work in works" key="{{ work.id }}" >
+        <div v-if="work.id >= 4 && work.id <= 6">
+          <WorkCard
+            class="is-one-third"
+            :id = "work.id"
+            :name = "work.name"
+            :description = "work.description"
+            :url = "work.url"
+            :path = "work.path"
+          >
+          </WorkCard>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns">
+      <div v-for="work in works" key="{{ work.id }}" >
+        <div v-if="work.id >= 7 && work.id <= 9">
+          <WorkCard
+            :id = "work.id"
+            :name = "work.name"
+            :description = "work.description"
+            :url = "work.url"
+            :path = "work.path"
+          >
+          </WorkCard>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -26,8 +68,6 @@ export default {
   },
   created () {
     this.works = require('../assets/works')
-    alert('hoge')
-    alert(this.works)
   }
 
 }
