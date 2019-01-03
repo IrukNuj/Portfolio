@@ -1,24 +1,75 @@
 <template>
   <div class="contents">
-    <div v-for="_ in 3" key="{{ i }}" class="columns">
-      <WorkCard></WorkCard>
-      <WorkCard></WorkCard>
-      <WorkCard></WorkCard>
+
+    <div class="columns">
+      <div v-for="work in works" key="{{ work.id }}" >
+        <div v-if="work.id <= 3">
+            <WorkCard
+              :id = "work.id"
+              :name = "work.name"
+              :description = "work.description"
+              :url = "work.url"
+              :path = "work.path"
+            >
+            </WorkCard>
+          </div>
+        </div>
     </div>
+
+    <div class="columns">
+      <div v-for="work in works" key="{{ work.id }}" >
+        <div v-if="work.id >= 4 && work.id <= 6">
+          <WorkCard
+            class="is-one-third"
+            :id = "work.id"
+            :name = "work.name"
+            :description = "work.description"
+            :url = "work.url"
+            :path = "work.path"
+          >
+          </WorkCard>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns">
+      <div v-for="work in works" key="{{ work.id }}" >
+        <div v-if="work.id >= 7 && work.id <= 9">
+          <WorkCard
+            :id = "work.id"
+            :name = "work.name"
+            :description = "work.description"
+            :url = "work.url"
+            :path = "work.path"
+          >
+          </WorkCard>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 
 <script>
 import WorkCard from '@/components/WorkCard'
+import axios from 'axios'
 
 export default {
   components: {WorkCard},
   name: 'Work',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      works: null,
     }
+  },
+  methods: {
+
+  },
+  created () {
+    this.works = require('../assets/works')
   }
+
 }
 </script>
 

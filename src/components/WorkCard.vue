@@ -11,7 +11,7 @@
         <div class="card-content">
           <div class="media">
             <div class="media-content">
-              <p class="title is-5">おもいだしったー</p>
+              <p class="title is-5">{{ name }}</p>
             </div>
           </div>
 
@@ -28,6 +28,28 @@
 <script>
 export default {
   name: 'WorkCard',
+  props: {
+    id: {
+      type: Number,
+      required: false
+    },
+    name: {
+      type: String,
+      required: true
+    },
+    description: {
+      type: String,
+      required: true
+    },
+    url: {
+      type: String,
+      required: false
+    },
+    path: {
+      type: String,
+      required: false
+    }
+  },
   data () {
     return {
       show: true
