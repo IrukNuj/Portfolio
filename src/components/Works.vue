@@ -20,7 +20,6 @@
       <div v-for="work in works" key="{{ work.id }}" >
         <div v-if="work.id >= 4 && work.id <= 6">
           <WorkCard
-            class="is-one-third"
             :id = "work.id"
             :name = "work.name"
             :description = "work.description"
