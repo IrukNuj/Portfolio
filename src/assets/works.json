@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Mint",
     "description": "初めて作ったWebアプリ。ユーザー登録と記事の投稿機能を備えた簡単なブロクSNSっぽいアプリ。" ,
-    "url": "URL",
+    "url": "https://github.com/IrukNuj/mint_app",
     "path": "mint.jpg"
   },
   {
@@ -29,9 +29,9 @@
   },
   {
     "id": 5,
-    "name": "Trend-getter",
-    "description": "日経新聞社のインターンで作成したアプリ、Googleの検索トレンドに応じてそれに類推した記事を表示します。pythonとflaskを用いて開発しました。",
+    "name": "React Todo App",
+    "description": "Reactの習作、Props云々コンポーネント試行をざっくり把握してmaterial-designで簡単に色付けしました。",
     "url": "https://iruknuj.github.io/React_Todo_App/",
-    "path": "trend-getter.jpg"
+    "path": "react_todo_app.jpg"
   }
 ]
