@@ -1,10 +1,11 @@
 <template>
   <div class="column">
+    {{ this.path }}
     <transition appear>
       <div v-show="show" class="card">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" class="card-image">
+            <div class="card-image">
+              <figure class="image is-4by3">
+            <img :src='imagePath' alt="Placeholder image" class="card-image">
           </figure>
         </div>
 
@@ -16,7 +17,7 @@
           </div>
 
           <div class="content">
-            Railsで簡単にOauth認証を実装し、ログインユーザーの過去の呟きを思い出せるアプリを作成。
+            <p>{{ description }}</p>
             <br>
           </div>
         </div>
@@ -52,8 +53,19 @@ export default {
   },
   data () {
     return {
-      show: true
+      show: true,
+      daru: 'mint.jpg',
     }
+  },
+  methods: {
+    image_path: function (path) {
+      return toString(path)
+    }
+  },
+  computed: {
+    imagePath: function () {
+      return require('../assets/thumbnails/' + this.path)
+    },
   }
 }
 </script>
