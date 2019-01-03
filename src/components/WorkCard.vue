@@ -16,8 +16,7 @@
           </div>
 
           <div class="content">
-            <p>{{ description }}</p>
-            <br>
+            {{ description }}
           </div>
         </div>
       </div>
