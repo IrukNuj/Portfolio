@@ -36,8 +36,13 @@ export default {
   background-image: url("assets/1.png");
 }
 
+@media screen and (min-width:768px) {
+  .main-content {
+    margin-top: 5vh;
+  }
+}
+
 .main-content {
-  margin-top: 5vh;
   padding-right: 3vw;
   padding-left: 3vw;
 }
