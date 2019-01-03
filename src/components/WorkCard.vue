@@ -85,8 +85,10 @@ export default {
   .v-enter-to {
     opacity: 0.8;
   }
-  .card {
-    height: 50vh;
-    width: 24vw;
+  @media screen and (min-width:770px) {
+    .card {
+      height: 50vh;
+      width: 24vw;
+    }
   }
 </style>
