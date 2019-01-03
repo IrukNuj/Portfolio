@@ -22,9 +22,9 @@
   },
   {
     "id": 4,
-    "name": "名前です",
-    "description": "説明です" ,
+    "name": "Trend-getter",
+    "description": "日経新聞社のインターンで作成したアプリ、Googleの検索トレンドに応じてそれに類推した記事を表示します。pythonとflaskを用いて開発しました。",
     "url": "URL",
-    "path": "mint.jpg"
+    "path": "trend-getter.jpg"
   }
 ]
