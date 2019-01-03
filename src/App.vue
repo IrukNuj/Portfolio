@@ -22,24 +22,26 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../node_modules/bulma";
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("assets/1.png");
-}
-
-.main-content {
-  margin-top: 5vh;
-  padding-right: 3vw;
-  padding-left: 3vw;
-}
-
+  @import "../node_modules/bulma";
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/1.png");
+  }
+  @media screen and (min-width:768px) {
+    .main-content {
+      margin-top: 5vh;
+    }
+  }
+  .main-content {
+    padding-right: 3vw;
+    padding-left: 3vw;
+  }
 </style>

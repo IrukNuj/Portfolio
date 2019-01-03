@@ -32,10 +32,14 @@ export default {
       height: auto;
     }
   }
+  @media screen and (min-width: 768px) {
+    .menu-content {
+      margin-top: 5vh;
+    }
+  }
   .menu-content {
     border-right: solid 1px darkgrey;
     width: 100%;
-    margin-top: 5vh;
   }
 
   .menu-list {
