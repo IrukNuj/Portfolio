@@ -1,6 +1,5 @@
 <template>
   <div class="column">
-    {{ this.path }}
     <transition appear>
       <div v-show="show" class="card">
             <div class="card-image">
