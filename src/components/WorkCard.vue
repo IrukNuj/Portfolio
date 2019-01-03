@@ -83,12 +83,15 @@ export default {
     opacity: 0;
   }
   .v-enter-to {
-    opacity: 0.8;
+    opacity: 0.75;
   }
   @media screen and (min-width:768px) {
     .card {
       height: 50vh;
       width: 24vw;
+    }
+    .card:hover {
+      transform: scale(1.0);
     }
   }
 </style>
