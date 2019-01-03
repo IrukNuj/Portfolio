@@ -52,37 +52,11 @@ export default {
   data () {
     return {
       show: true,
-      daru: 'mint.jpg',
-    }
-  },
-  methods: {
-    image_path: function (path) {
-      return toString(path)
     }
   },
   computed: {
     imagePath: function () {
       return require('../assets/thumbnails/' + this.path)
-    },
-    charCount: (description) => {
-      let len = 0
-      let str = description.split('')
-      for (let i = 0; i < str.length; i++) {
-        if (str[i].match(/[ｱ-ﾝﾞﾟ]+/)) {
-          // 半角カタカナ
-          len++
-        } else {
-          let esc = escape(str[i])
-          if (esc.match(/^\%u/)) {
-            // 全角
-            len += 2
-          } else {
-            // 半角英数
-            len++
-          }
-        }
-      }
-      return len
     }
   }
 }
@@ -110,5 +84,9 @@ export default {
   }
   .v-enter-to {
     opacity: 0.8;
+  }
+  .card {
+    height: 50vh;
+    width: 24vw;
   }
 </style>
