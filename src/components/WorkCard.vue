@@ -52,18 +52,12 @@ export default {
   data () {
     return {
       show: true,
-      daru: 'mint.jpg',
-    }
-  },
-  methods: {
-    image_path: function (path) {
-      return toString(path)
     }
   },
   computed: {
     imagePath: function () {
       return require('../assets/thumbnails/' + this.path)
-    },
+    }
   }
 }
 </script>
@@ -90,5 +84,11 @@ export default {
   }
   .v-enter-to {
     opacity: 0.8;
+  }
+  @media screen and (min-width:770px) {
+    .card {
+      height: 50vh;
+      width: 24vw;
+    }
   }
 </style>

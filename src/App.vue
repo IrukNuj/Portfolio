@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="container">
+    <!--<div class="container">-->
       <div class="columns">
         <div class="column is-2 aside-content">
           <Menu></Menu>
