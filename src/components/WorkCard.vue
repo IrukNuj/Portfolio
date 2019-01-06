@@ -1,7 +1,7 @@
 <template>
   <div class="column">
     <transition appear>
-      <div v-show="show" class="card">
+      <div v-show="show" class="card card-parent">
             <div class="card-image">
               <figure class="image is-4by3">
             <img :src='imagePath' alt="Placeholder image" class="card-image">
@@ -18,6 +18,11 @@
           <div class="content">
             {{ description }}
           </div>
+
+          <div class="link-button">
+            <a class="button is-info is-outlined" :href="url">詳細</a>
+          </div>
+
         </div>
       </div>
     </transition>
