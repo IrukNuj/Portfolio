@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "name": "だる子(TwitterBot)",
+    "name": "だる子(Bot)",
     "description": "RubyとSinatraで簡単なTwitterBotを作成、Webアプリの概念をざっくりと学ぶいい経験でした。",
     "url": "https://twitter.com/Daru_Girl",
     "path": "daru-girl.jpg",
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "だる子(Alexa)",
-    "description": "先のTwitterBotに追随するアプリをRubyとralyxaで開発。当時はralyxaの記事が少なくて苦労した覚えがあります((" ,
+    "description": "先のTwitterBotに追随するアプリをRubyとralyxaで開発。当時は記事が少なくて苦労した覚えがあります((" ,
     "url": "URL",
     "path": "daru-girl_alexa.jpg",
     "tag": ["Ruby"]

@@ -10,6 +10,7 @@
               :description = "work.description"
               :url = "work.url"
               :path = "work.path"
+              :tags = "work.tag"
             >
             </WorkCard>
           </div>
@@ -25,6 +26,7 @@
             :description = "work.description"
             :url = "work.url"
             :path = "work.path"
+            :tags = "work.tag"
           >
           </WorkCard>
         </div>
@@ -40,6 +42,7 @@
             :description = "work.description"
             :url = "work.url"
             :path = "work.path"
+            :tags = "work.tag"
           >
           </WorkCard>
         </div>
