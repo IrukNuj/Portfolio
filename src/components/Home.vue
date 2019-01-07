@@ -4,7 +4,7 @@
       <div class="level-left">
         <h1 class="subtitle">Welcome to Iruk's site!</h1>
       </div>
-      <div class="daru-girl-image level-right">
+      <div class="daru-girl-image">
         <img src="../assets/daru-girl_home.png"/>
       </div>
     </div>
@@ -28,9 +28,9 @@ export default {
     height: 80vh;
     border-radius: 5px;
   }
-  .daru-girl-image{
-    width: 80%;
-    height: 80%;
+  .daru-girl-image img{
+    height: 80vh;
+    width: 500px;
   }
   .card-image {
     border-radius: 5px 5px 0px 0px;
