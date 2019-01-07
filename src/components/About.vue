@@ -40,7 +40,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .limitation {
-    animation-iteration-count: infinite;
+    /*animation-iteration-count: infinite;*/
   }
   .v-enter-active{
     transition: opacity 0.5s;
