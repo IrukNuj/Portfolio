@@ -4,34 +4,39 @@
     "name": "Mint",
     "description": "初めて作ったWebアプリ。ユーザー登録と記事の投稿機能を備えた簡単なブロクSNSっぽいアプリ。" ,
     "url": "https://github.com/IrukNuj/mint_app",
-    "path": "mint.jpg"
+    "path": "mint.jpg",
+    "tag": ["Ruby", "Rails"]
   },
   {
     "id": 2,
     "name": "だる子(TwitterBot)",
     "description": "RubyとSinatraで簡単なTwitterBotを作成、Webアプリの概念をざっくりと学ぶいい経験でした。",
     "url": "https://twitter.com/Daru_Girl",
-    "path": "daru-girl.jpg"
+    "path": "daru-girl.jpg",
+    "tag": ["Ruby"]
   },
   {
     "id": 3,
     "name": "だる子(Alexa)",
     "description": "先のTwitterBotに追随するアプリをRubyとralyxaで開発。当時はralyxaの記事が少なくて苦労した覚えがあります((" ,
     "url": "URL",
-    "path": "daru-girl_alexa.jpg"
+    "path": "daru-girl_alexa.jpg",
+    "tag": ["Ruby"]
   },
   {
     "id": 4,
     "name": "Trend-getter",
     "description": "日経新聞社のインターンで作成したアプリ、Googleの検索トレンドに応じてそれに類推した記事を表示します。",
     "url": "https://trend-getter-2018.herokuapp.com/",
-    "path": "trend-getter.jpg"
+    "path": "trend-getter.jpg",
+    "tag": ["Python", "flask"]
   },
   {
     "id": 5,
     "name": "React Todo App",
     "description": "Reactの習作、Props云々コンポーネント試行をざっくり把握してmaterial-designで簡単に色付けしました。",
     "url": "https://iruknuj.github.io/React_Todo_App/",
-    "path": "react_todo_app.jpg"
+    "path": "react_todo_app.jpg",
+    "tag": ["React"]
   }
 ]
