@@ -19,6 +19,14 @@
             {{ description }}
           </div>
 
+          <div class="tags">
+            <div v-for="tag in tags">
+              <span class="tag is-light is-rounded">
+                {{ tag }}
+              </span>
+            </div>
+          </div>
+
           <div class="link-button">
             <a class="button is-info is-outlined" :href="url">詳細</a>
           </div>
@@ -51,6 +59,10 @@ export default {
     },
     path: {
       type: String,
+      required: false
+    },
+    tags: {
+      type: Array,
       required: false
     }
   },
@@ -92,11 +104,14 @@ export default {
   }
   @media screen and (min-width:768px) {
     .card {
-      height: 50vh;
+      height: 52vh;
       width: 24vw;
     }
     .card:hover {
       transform: scale(1.0);
+    }
+    .tags{
+      text-align: center;
     }
   }
 </style>
