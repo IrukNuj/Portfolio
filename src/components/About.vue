@@ -14,7 +14,7 @@
               気まぐれでWebアプリを作ったりフロントを書いたりしています。<br/>
               生息区域は主にTwitter、話しかけたりふぁぼで反応を与えると喜びます。<br/>
             </p>
-            <p>Twittet : @Iruk_Nuj</p>
+            <p>Twittet : <a href="https://twitter.com/Iruk_Nuj">@Iruk_Nuj</a></p>
           </div>
         </div>
       </article>
