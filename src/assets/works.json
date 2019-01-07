@@ -38,5 +38,21 @@
     "url": "https://iruknuj.github.io/React_Todo_App/",
     "path": "react_todo_app.jpg",
     "tag": ["React"]
+  },
+  {
+    "id": 6,
+    "name": "Portfolio",
+    "description": "ここ。Vueの習作。SFCの書きやすさに感動しながらちょっとデザイン面凝って書きました。" ,
+    "url": "https://iruknuj.github.io/Portfolio",
+    "path": "Portfolio.jpg",
+    "tag": ["Vue"]
+  },
+  {
+    "id": 7,
+    "name": "Omoidashitter",
+    "description": "製作中..." ,
+    "url": "",
+    "path": "placeholder.png",
+    "tag": ["Ruby", "Rails"]
   }
 ]
