@@ -23,14 +23,10 @@
 </template>
 
 <script>
-import WorkCard from '@/components/WorkCard'
-
 export default {
-  components: {WorkCard},
   name: 'About',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App',
       image_src: require('../assets/daru-girl.jpeg')
     }
   }
