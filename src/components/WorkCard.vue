@@ -20,7 +20,7 @@
           </div>
 
           <div class="tags">
-            <div v-for="tag in tags">
+            <div v-for="tag in tags" :key="tag">
               <span class="tag is-light is-rounded">
                 {{ tag }}
               </span>
@@ -68,7 +68,7 @@ export default {
   },
   data () {
     return {
-      show: true,
+      show: true
     }
   },
   computed: {
