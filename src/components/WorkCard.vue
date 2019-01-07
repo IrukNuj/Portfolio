@@ -27,7 +27,7 @@
             </div>
           </div>
 
-          <div class="link-button">
+          <div v-if="url !== ''" class="link-button">
             <a class="button is-info is-outlined" :href="url">詳細</a>
           </div>
 

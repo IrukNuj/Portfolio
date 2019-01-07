@@ -46,4 +46,7 @@ export default {
     opacity: 1;
     /*scale(1, 1);*/
   }
+  .box {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
 </style>
