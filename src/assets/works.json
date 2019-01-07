@@ -5,7 +5,7 @@
     "description": "初めて作ったWebアプリ。ユーザー登録と記事の投稿機能を備えた簡単なブロクSNSっぽいアプリ。" ,
     "url": "https://github.com/IrukNuj/mint_app",
     "path": "mint.jpg",
-    "tag": ["Ruby", "Rails"],
+    "tag": ["Ruby", "Rails"]
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "description": "RubyとSinatraで簡単なTwitterBotを作成、Webアプリの概念をざっくりと学ぶいい経験でした。",
     "url": "https://twitter.com/Daru_Girl",
     "path": "daru-girl.jpg",
-    "tag": ["Ruby"],
+    "tag": ["Ruby"]
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "description": "先のTwitterBotに追随するアプリをRubyとralyxaで開発。当時はralyxaの記事が少なくて苦労した覚えがあります((" ,
     "url": "URL",
     "path": "daru-girl_alexa.jpg",
-    "tag": ["Ruby"],
+    "tag": ["Ruby"]
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "description": "日経新聞社のインターンで作成したアプリ、Googleの検索トレンドに応じてそれに類推した記事を表示します。",
     "url": "https://trend-getter-2018.herokuapp.com/",
     "path": "trend-getter.jpg",
-    "tag": ["Python", "flask"],
+    "tag": ["Python", "flask"]
   },
   {
     "id": 5,
@@ -38,5 +38,5 @@
     "url": "https://iruknuj.github.io/React_Todo_App/",
     "path": "react_todo_app.jpg",
     "tag": ["React"]
-  },
+  }
 ]
