@@ -90,6 +90,9 @@ export default {
     filter: drop-shadow(8px 8px 8px rgba(0,0,0,0.3));
     opacity: 1;
   }
+  .card-parent{
+    height: 100%;
+  }
   .card-image {
     border-radius: 5px 5px 0px 0px;
   }
@@ -107,11 +110,19 @@ export default {
       height: 52vh;
       width: 24vw;
     }
+    @media screen and (max-height:800px){
+      .card {
+        height: 64vh;
+      }
+    }
     .card:hover {
       transform: scale(1.0);
     }
     .tags{
       text-align: center;
+    }
+    .content{
+      height: 100%;
     }
   }
 </style>
