@@ -9,7 +9,8 @@
         </div>
         <div class="media-content">
           <div class="content">
-            <p>Twittet : @Iruk_Nuj</p>
+            <p>Twittet : <a href="https://twitter.com/Iruk_Nuj">@Iruk_Nuj</a></p>
+            <p>GitHub : <a href="https://github.com/IrukNuj">IrukNuj</a></p>
             <p>Mail : kurijune(@)gmail(.)com</p>
           </div>
         </div>
@@ -23,7 +24,6 @@ export default {
   name: 'Contact',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
     }
   }
 }

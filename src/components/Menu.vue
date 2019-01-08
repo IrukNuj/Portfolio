@@ -16,7 +16,6 @@ export default {
   name: 'Menu',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
     }
   }
 }

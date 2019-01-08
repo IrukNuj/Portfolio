@@ -2,7 +2,7 @@
   <div class="contents">
 
     <div class="columns">
-      <div v-for="work in works" key="{{ work.id }}" >
+      <div v-for="work in works" :key="work.id" >
         <div v-if="work.id <= 3">
             <WorkCard
               :id = "work.id"
@@ -18,7 +18,7 @@
     </div>
 
     <div class="columns">
-      <div v-for="work in works" key="{{ work.id }}" >
+      <div v-for="work in works" :key="work.id" >
         <div v-if="work.id >= 4 && work.id <= 6">
           <WorkCard
             :id = "work.id"
@@ -34,7 +34,7 @@
     </div>
 
     <div class="columns">
-      <div v-for="work in works" key="{{ work.id }}" >
+      <div v-for="work in works" :key="work.id" >
         <div v-if="work.id >= 7 && work.id <= 9">
           <WorkCard
             :id = "work.id"
@@ -54,24 +54,17 @@
 
 <script>
 import WorkCard from '@/components/WorkCard'
-import axios from 'axios'
-
 export default {
   components: {WorkCard},
   name: 'Work',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App',
-      works: null,
+      works: null
     }
-  },
-  methods: {
-
   },
   created () {
     this.works = require('../assets/works')
   }
-
 }
 </script>
 
