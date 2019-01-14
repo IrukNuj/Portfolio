@@ -107,7 +107,7 @@ export default {
   }
   @media screen and (min-width:768px) {
     .card {
-      height: 52vh;
+      height: 58vh;
       width: 24vw;
     }
     @media screen and (max-height:800px){
