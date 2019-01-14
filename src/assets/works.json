@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Trend-getter",
-    "description": "日経新聞社のインターンで作成したアプリ、Googleの検索トレンドに応じてそれに類推した記事を表示します。",
+    "description": "インターンで作成したアプリ、Googleの検索トレンドに応じてそれに類推した記事を表示します。",
     "url": "https://trend-getter-2018.herokuapp.com/",
     "path": "trend-getter.jpg",
     "tag": ["Python", "flask"]
