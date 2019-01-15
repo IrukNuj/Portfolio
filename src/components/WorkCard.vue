@@ -110,6 +110,12 @@ export default {
       height: 58vh;
       width: 24vw;
     }
+    @media screen and (min-width:1200px) {
+      .card {
+        height: 64vh;
+        width: 24vw;
+      }
+    }
     @media screen and (max-height:800px){
       .card {
         height: 64vh;
