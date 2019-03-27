@@ -1,8 +1,7 @@
-[
-  {
+[{
     "id": 1,
     "name": "Mint",
-    "description": "初めて作ったWebアプリ。ユーザー登録と記事の投稿機能を備えた簡単なブロクSNSっぽいアプリ。" ,
+    "description": "初めて作ったWebアプリ。ユーザー登録と記事の投稿機能を備えた簡単なブロクSNSっぽいアプリ。",
     "url": "https://github.com/IrukNuj/mint_app",
     "path": "mint.jpg",
     "tag": ["Ruby", "Rails"]
@@ -18,7 +17,7 @@
   {
     "id": 3,
     "name": "だる子(Alexa)",
-    "description": "先のTwitterBotに追随するアプリをRubyとralyxaで開発。当時は記事が少なくて苦労した覚えがあります((" ,
+    "description": "先のTwitterBotに追随するアプリをRubyとralyxaで開発。当時は記事が少なくて苦労した覚えがあります((",
     "url": "URL",
     "path": "daru-girl_alexa.jpg",
     "tag": ["Ruby"]
@@ -42,7 +41,7 @@
   {
     "id": 6,
     "name": "Portfolio",
-    "description": "ここ。Vueの習作。SFCの書きやすさに感動しながらちょっとデザイン面凝って書きました。" ,
+    "description": "ここ。Vueの習作。SFCの書きやすさに感動しながらちょっとデザイン面凝って書きました。",
     "url": "https://iruknuj.github.io/Portfolio",
     "path": "Portfolio.jpg",
     "tag": ["Vue"]
@@ -50,9 +49,25 @@
   {
     "id": 7,
     "name": "Omoidashitter",
-    "description": "製作中..." ,
+    "description": "TwitterのOauth認証を用いてユーザーの昔のツイートを思い出します。思い出したツイートはハッシュタグを添えて直ぐにツイート可能です。",
+    "url": "http://www.omoidashitter.site",
+    "path": "omoidashitter.jpg",
+    "tag": ["Ruby", "Rails"]
+  },
+  {
+    "id": 8,
+    "name": "Janken_Go",
+    "description": "GoでAPI作成の習作。/battle/:hand にじゃんけんの手を添えることでじゃんけん勝負ができます。",
+    "url": "https://github.com/IrukNuj/Janken_Go",
+    "path": "JankenGo.jpg",
+    "tag": ["Go"]
+  },
+  {
+    "id": 9,
+    "name": "AniversarryAPI",
+    "description": "日本の記念日を返すAPIをGolangで製作中... 創作のお供などにご活用下さい。",
     "url": "",
     "path": "placeholder.png",
-    "tag": ["Ruby", "Rails"]
+    "tag": ["Go"]
   }
 ]
