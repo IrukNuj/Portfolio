@@ -64,6 +64,14 @@
   },
   {
     "id": 9,
+    "name": "PD-Map",
+    "description": "授業で制作した学内マップ。サーバーサイドをGolang、フロントサイドをVue.jsで製作",
+    "url": "",
+    "path": "placeholder.png",
+    "tag": ["Go", "Vue"]
+  },
+  {
+    "id": 10,
     "name": "AniversarryAPI",
     "description": "日本の記念日を返すAPIをGolangで製作中... 創作のお供などにご活用下さい。",
     "url": "",
