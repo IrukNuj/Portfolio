@@ -9,7 +9,7 @@
         </div>
         <div class="media-content">
           <div class="content">
-            <p>Twittet : <a href="https://twitter.com/Iruk_Nuj">@Iruk_Nuj</a></p>
+            <p>Twittet : <a href="https://twitter.com/_Iruk_">@_Iruk_</a></p>
             <p>GitHub : <a href="https://github.com/IrukNuj">IrukNuj</a></p>
             <p>Mail : kurijune(@)gmail(.)com</p>
           </div>
@@ -21,12 +21,11 @@
 
 <script>
 export default {
-  name: 'Contact',
-  data () {
-    return {
-    }
+  name: "Contact",
+  data() {
+    return {};
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -34,7 +33,7 @@ export default {
 .limitation {
   animation-iteration-count: infinite;
 }
-.v-enter-active{
+.v-enter-active {
   transition: opacity 0.5s;
 }
 .v-enter {
@@ -43,5 +42,4 @@ export default {
 .v-enter-to {
   opacity: 1;
 }
-
 </style>

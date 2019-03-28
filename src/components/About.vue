@@ -14,7 +14,7 @@
               気まぐれでWebアプリを作ったりフロントを書いたりしています。<br/>
               生息区域は主にTwitter、話しかけたりふぁぼで反応を与えると喜びます。<br/>
             </p>
-            <p>Twittet : <a href="https://twitter.com/Iruk_Nuj">@Iruk_Nuj</a></p>
+            <p>Twitter : <a href="https://twitter.com/_Iruk_">@_Iruk_</a></p>
           </div>
         </div>
       </article>
@@ -24,28 +24,27 @@
 
 <script>
 export default {
-  name: 'About',
-  data () {
+  name: "About",
+  data() {
     return {
-      image_src: require('../assets/daru-girl.jpeg')
-    }
+      image_src: require("../assets/daru-girl.jpeg")
+    };
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .limitation {
-    /*animation-iteration-count: infinite;*/
-  }
-  .v-enter-active{
-    transition: opacity 0.5s;
-  }
-  .v-enter {
-    opacity: 0;
-  }
-  .v-enter-to {
-    opacity: 1;
-  }
-
+.limitation {
+  /*animation-iteration-count: infinite;*/
+}
+.v-enter-active {
+  transition: opacity 0.5s;
+}
+.v-enter {
+  opacity: 0;
+}
+.v-enter-to {
+  opacity: 1;
+}
 </style>
