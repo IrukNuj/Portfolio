@@ -49,6 +49,21 @@
       </div>
     </div>
 
+    <div class="columns">
+      <div v-for="work in works" :key="work.id" >
+        <div v-if="work.id >= 10 && work.id <= 12">
+          <WorkCard
+            :id = "work.id"
+            :name = "work.name"
+            :description = "work.description"
+            :url = "work.url"
+            :path = "work.path"
+            :tags = "work.tag"
+          >
+          </WorkCard>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

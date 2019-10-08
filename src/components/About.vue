@@ -24,13 +24,13 @@
 
 <script>
 export default {
-  name: "About",
-  data() {
+  name: 'About',
+  data () {
     return {
-      image_src: require("../assets/daru-girl.jpeg")
-    };
+      image_src: require('../assets/daru-girl.jpeg')
+    }
   }
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
