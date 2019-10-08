@@ -83,7 +83,7 @@
     "name": "インターン: livesense",
     "description": "株式会社リブセンスに2週間ほどお邪魔して、React, Redux, TSを用いて開発。機能追加のPRを提出しました。",
     "url": "",
-    "path": "placeholder.png",
+    "path": "livesense.png",
     "tag": ["React", "Redux", "TypeScript"]
   }, 
   {
@@ -91,7 +91,7 @@
     "name": "インターン: mixi",
     "description": "株式会社mixiで1月インターンしました。既存バックエンドのnodeでの置き換え,Reactで管理画面の作成を担当。",
     "url": "",
-    "path": "placeholder.png",
+    "path": "mixi.png",
     "tag": ["React", "Redux", "express", "firebase"]
   }
 
