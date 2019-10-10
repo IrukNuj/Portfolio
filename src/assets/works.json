@@ -93,6 +93,21 @@
     "url": "",
     "path": "mixi.png",
     "tag": ["React", "Redux", "express", "firebase"]
+  },
+  {
+    "id": 13,
+    "name": "いしかわファッション協会",
+    "description": "いしかわファッション協会様のホームページ制作を出かけさせて頂きました。",
+    "url": "http://www.ifa.ne.jp/",
+    "path": "ifa.png",
+    "tag": ["WordPress", "css", "JavaScript"]
+  },
+  {
+    "id": 14,
+    "name": "SAKITO",
+    "description": "アンケートに答えてガチャを回すと学食無料券がもらえる学内サービス「SAKITO」の開発に携わらせて頂きました。",
+    "url": "https://sakito.cirkit.jp/",
+    "path": "sakito.png",
+    "tag": ["Ruby", "Rails"]
   }
-
 ]
