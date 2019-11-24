@@ -113,6 +113,17 @@
   {
     "id": 15,
     "name": "prairie",
-    "description": ""
-  }
+    "description": "github_templatesを作成してくれるライブラリ「prairie」を作成",
+    "url": "https://github.com/IrukNuj/prairie",
+    "path": "prairie.png",
+    "tag": ["Ruby"]
+  },
+  {
+    "id": 16,
+    "name": "AWS CommunityDay",
+    "description": "EC2, RDS, S3を用いたサーバ運用と、およびそれらの冗長構成について登壇しました。",
+    "url": "https://speakerdeck.com/iruknuj/awsdesabayun-yong-sitemiru",
+    "path": "aws_iruk.jpg",
+    "tag": ["AWS"]
+  },
 ]
